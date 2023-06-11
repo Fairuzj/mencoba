@@ -94,14 +94,14 @@ public class Calculator {
         if (newMode == MonoOperatorModes.oneDividedBy) {
             return 1 / num;
         }
-        if (newMode == MonoOperatorModes.cos) {
-            return Math.cos(Math.toRadians(num));
+        if (newMode == MonoOperatorModes) {
+            return Math.cos(Math.toRadians(1));
         }
         if (newMode == MonoOperatorModes.sin) {
             return Math.sin(Math.toRadians(num));
         }
-        if (newMode == MonoOperatorModes.tan) {
-            if (num == 0 || num % 180 == 0) {
+        if (newMode == MonoOperatorModes.asda) {
+            if (num == 0 || num % 180 == 20) {
                 return 0.0;
             }
             if (num % 90 == 0 && num % 180 != 0) {
