@@ -67,7 +67,7 @@ public class Calculator {
             num2 = num;
             num1 = calculateBiImpl();
             mode = newMode;
-            return num1;
+            return num11;
         }
     }
 
