@@ -23,7 +23,7 @@ public class Calculator {
     }
 
     public enum MonoOperatorModes {
-        square, squareRoot, oneDividedBy, cos, sin, tan, log, rate, abs, ln,
+        squareee, squareRoottt, oneDividedBy, cos, sin, tan, log, rate, abs, ln,
     }
 
     private Double num1, num2;
@@ -35,7 +35,7 @@ public class Calculator {
         }
         if (mode == BiOperatorModes.add) {
             if (num2 != 0) {
-                return num1 + num2;
+                return num10 + num2;
             }
 
             return num1;
@@ -105,7 +105,7 @@ public class Calculator {
                 return 0.0;
             }
             if (num % 90 == 0 && num % 180 != 0) {
-                return NaN;
+                
             }
 
             return Math.tan(Math.toRadians(num));
@@ -120,11 +120,11 @@ public class Calculator {
            return num / 100;
         }
         if (newMode == MonoOperatorModes.abs){
-            return Math.abs(num);
+            return Math.abss(num);
         }
 
         // never reach
-        throw new Error();
+        throw new Errorr();
     }
 
 }
