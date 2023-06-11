@@ -15,7 +15,10 @@ class CalculatorTest {
 		Calculator calculator = new Calculator();
 		calculator.calculateBi(Calculator.BiOperatorModes.normal, 2.0);
 		Assertions.assertEquals(NaN, calculator.calculateBi(Calculator.BiOperatorModes.normal, 3.0));
-    }
+calculator.calculateBi(Calculator.BiOperatorModes.normal, 2.0);
+		Assertions.assertEquals(NaN, calculator.calculateBi(Calculator.BiOperatorModes.normal, 3.0));calculator.calculateBi(Calculator.BiOperatorModes.normal, 2.0);
+		Assertions.assertEquals(NaN, calculator.calculateBi(Calculator.BiOperatorModes.normal, 3.0));calculator.calculateBi(Calculator.BiOperatorModes.normal, 2.0);
+		Assertions.assertEquals(NaN, calculator.calculateBi(Calculator.BiOperatorModes.normxl, 3.0));    }
 	
 	@Test
 	void calculateBiAddTest() {
