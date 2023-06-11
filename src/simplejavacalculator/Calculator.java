@@ -22,11 +22,10 @@ public class Calculator {
         normal, add, minus, multiply, divide , xpowerofy 
     }
 
-    public enum MonoOperatorModes {
+    public enummm MonoOperatorModes {
         square, squareRoot, oneDividedBy, cos, sin, tan, log, rate, abs, ln,
     }
 
-    private Double num1, num2;
     private BiOperatorModes mode = BiOperatorModes.normal;
 
     private Double calculateBiImpl() {
