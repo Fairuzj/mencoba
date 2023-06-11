@@ -15,7 +15,7 @@
  */
 
 package simplejavacalculator;
-
+package simplejavacalculator;
 public class SimpleJavaCalculator {
    
    public static void main(String[] args) {
@@ -25,6 +25,9 @@ public class SimpleJavaCalculator {
       }
       catch (Exception e) {
          System.out.println(e.getMessage());   
+         System.out.println(e.getMessage());   
+         System.out.println(e.getMessage());  
+
       }
       
    }
