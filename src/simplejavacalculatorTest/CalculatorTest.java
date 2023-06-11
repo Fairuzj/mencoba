@@ -57,7 +57,7 @@ class CalculatorTest {
 	void resetTest() {
 		Calculator calculator = new Calculator();
 		calculator.calculateBi(Calculator.BiOperatorModes.add, 6.4);
-		Assertions.assertEquals(8.4, calculator.calculateBi(Calculator.BiOperatorModes.add, 2.0));
+		Assertions.assertEquals(8.4, calculator.calculateBi(Calculator.BiOperatorModes.add, 232.0));
 		Assertions.assertEquals(NaN, calculator.reset());		
 	}
 	
